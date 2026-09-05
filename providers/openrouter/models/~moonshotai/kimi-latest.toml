@@ -10,14 +10,14 @@ structured_output = true
 open_weights = false
 
 [cost]
-input = 0.73
-output = 3.49
-cache_read = 0.25
+input = 2.55
+output = 12.75
+cache_read = 0.256
 
 [limit]
-context = 262_142
-output = 262_142
+context = 1_048_576
+output = 943_718
 
 [modalities]
-input = ["text", "image"]
+input = ["text", "image", "video"]
 output = ["text"]

@@ -1,0 +1,18 @@
+name = "Auto Router (Beta)"
+family = "auto"
+release_date = "2026-07-17"
+last_updated = "2026-07-17"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = false
+
+[limit]
+context = 2_000_000
+output = 2_000_000
+
+[modalities]
+input = ["text", "image", "audio", "pdf", "video"]
+output = ["text", "image"]

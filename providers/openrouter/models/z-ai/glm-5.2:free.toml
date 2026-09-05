@@ -1,0 +1,22 @@
+name = "GLM 5.2 (free)"
+family = "glm"
+release_date = "2026-06-16"
+last_updated = "2026-06-16"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0
+output = 0
+
+[limit]
+context = 256_000
+output = 230_400
+
+[modalities]
+input = ["text"]
+output = ["text"]

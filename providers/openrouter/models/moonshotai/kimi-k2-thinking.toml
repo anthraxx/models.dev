@@ -4,7 +4,6 @@ structured_output = true
 
 [extends]
 from = "moonshotai/kimi-k2-thinking"
-omit = ["cost.cache_read"]
 
 [interleaved]
 field = "reasoning_details"
@@ -12,10 +11,11 @@ field = "reasoning_details"
 [cost]
 input = 0.6
 output = 2.5
+cache_read = 0.15
 
 [limit]
 context = 262_144
-output = 262_144
+output = 100_352
 
 [modalities]
 input = ["text"]
