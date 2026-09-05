@@ -9,12 +9,12 @@ from = "deepseek/deepseek-v4-pro"
 field = "reasoning_content"
 
 [cost]
-input = 0.435
-output = 0.87
-cache_read = 0.003625
+input = 0.839724
+output = 1.679448
+cache_read = 0.069977
 
 [limit]
-context = 1_048_576
+context = 1_024_000
 output = 384_000
 
 [modalities]

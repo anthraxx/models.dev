@@ -4,11 +4,11 @@ structured_output = true
 
 [extends]
 from = "openai/gpt-4o"
-omit = ["cost.cache_read"]
 
 [cost]
 input = 2.5
 output = 10
+cache_read = 1.25
 
 [limit]
 context = 128_000
