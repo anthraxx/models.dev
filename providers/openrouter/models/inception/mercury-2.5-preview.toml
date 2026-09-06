@@ -1,0 +1,23 @@
+name = "Mercury 2.5 Preview"
+family = "mercury"
+release_date = "2026-08-31"
+last_updated = "2026-08-31"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.04
+output = 0.15
+cache_read = 0.004
+
+[limit]
+context = 260_000
+output = 65_536
+
+[modalities]
+input = ["text"]
+output = ["text"]

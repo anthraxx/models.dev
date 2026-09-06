@@ -1,0 +1,23 @@
+name = "Qwen3.8 2.4T A95B (batch)"
+family = "qwen"
+release_date = "2026-08-12"
+last_updated = "2026-08-12"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 2
+output = 6
+cache_read = 0.25
+
+[limit]
+context = 1_010_000
+output = 909_000
+
+[modalities]
+input = ["text"]
+output = ["text"]

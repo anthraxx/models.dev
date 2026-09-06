@@ -1,0 +1,23 @@
+name = "GPT-5.4 (batch)"
+family = "gpt"
+release_date = "2026-03-05"
+last_updated = "2026-03-05"
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 1.25
+output = 7.5
+cache_read = 0.125
+
+[limit]
+context = 1_050_000
+output = 128_000
+
+[modalities]
+input = ["text", "image", "pdf"]
+output = ["text"]
