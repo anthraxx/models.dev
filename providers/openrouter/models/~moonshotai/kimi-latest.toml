@@ -1,4 +1,4 @@
-name = "MoonshotAI Kimi Latest"
+name = "Kimi Latest"
 family = "kimi"
 release_date = "2026-04-27"
 last_updated = "2026-04-27"
@@ -10,14 +10,14 @@ structured_output = true
 open_weights = false
 
 [cost]
-input = 0.73
-output = 3.49
-cache_read = 0.25
+input = 2.375
+output = 13.3
+cache_read = 0.2755
 
 [limit]
-context = 262_142
-output = 262_142
+context = 1_048_576
+output = 943_718
 
 [modalities]
-input = ["text", "image"]
+input = ["text", "image", "video"]
 output = ["text"]

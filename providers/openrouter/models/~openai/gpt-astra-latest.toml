@@ -1,0 +1,24 @@
+name = "GPT Astra Latest"
+family = "gpt"
+release_date = "2026-09-11"
+last_updated = "2026-09-11"
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 10
+output = 50
+cache_read = 1
+cache_write = 12.5
+
+[limit]
+context = 1_050_000
+output = 128_000
+
+[modalities]
+input = ["pdf", "image", "text"]
+output = ["text"]

@@ -13,7 +13,7 @@ cache_read = 0.04
 
 [limit]
 context = 262_144
-output = 262_144
+output = 209_715
 
 [modalities]
 input = ["text", "pdf"]

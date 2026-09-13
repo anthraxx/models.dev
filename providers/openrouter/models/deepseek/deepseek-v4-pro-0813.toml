@@ -1,0 +1,23 @@
+name = "DeepSeek V4 Pro 0813"
+family = "deepseek"
+release_date = "2026-08-12"
+last_updated = "2026-08-12"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0.57816
+output = 1.73448
+cache_read = 0.018396
+
+[limit]
+context = 1_048_576
+output = 393_216
+
+[modalities]
+input = ["text"]
+output = ["text"]
