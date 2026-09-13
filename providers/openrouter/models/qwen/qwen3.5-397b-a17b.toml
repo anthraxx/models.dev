@@ -11,12 +11,13 @@ knowledge = "2025-04"
 open_weights = true
 
 [cost]
-input = 0.39
-output = 2.34
+input = 0.55
+output = 3.5
+cache_read = 0.225
 
 [limit]
 context = 262_144
-output = 65_536
+output = 235_929
 
 [modalities]
 input = ["text", "image", "video"]

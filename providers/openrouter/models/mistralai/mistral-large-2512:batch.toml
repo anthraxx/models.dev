@@ -1,0 +1,23 @@
+name = "Mistral Large 3 2512 (batch)"
+family = "mistral-large"
+release_date = "2025-12-01"
+last_updated = "2025-12-01"
+attachment = true
+reasoning = false
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.25
+output = 0.75
+cache_read = 0.025
+
+[limit]
+context = 262_144
+output = 209_715
+
+[modalities]
+input = ["text", "image", "pdf"]
+output = ["text"]

@@ -1,0 +1,23 @@
+name = "GPT-5.2 (batch)"
+family = "gpt"
+release_date = "2025-12-10"
+last_updated = "2025-12-10"
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.875
+output = 7
+cache_read = 0.0875
+
+[limit]
+context = 400_000
+output = 128_000
+
+[modalities]
+input = ["pdf", "image", "text"]
+output = ["text"]
