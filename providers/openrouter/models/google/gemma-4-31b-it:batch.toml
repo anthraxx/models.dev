@@ -1,0 +1,22 @@
+name = "Gemma 4 31B (batch)"
+family = "gemma"
+release_date = "2026-04-02"
+last_updated = "2026-04-02"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0.39
+output = 0.97
+
+[limit]
+context = 262_144
+output = 235_929
+
+[modalities]
+input = ["image", "text", "video"]
+output = ["text"]

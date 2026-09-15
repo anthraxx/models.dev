@@ -1,0 +1,23 @@
+name = "Kimi K3"
+family = "kimi"
+release_date = "2026-07-16"
+last_updated = "2026-07-16"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 2.648138
+output = 13.282724
+cache_read = 0.302644
+
+[limit]
+context = 1_048_576
+output = 943_718
+
+[modalities]
+input = ["text", "image", "video"]
+output = ["text"]
