@@ -8,12 +8,12 @@ omit = ["cost.cache_write"]
 
 [cost]
 input = 0.43
-output = 1.74
+output = 1.75
 cache_read = 0.08
 
 [limit]
-context = 202_752
-output = 131_072
+context = 198_000
+output = 16_384
 
 [modalities]
 input = ["text"]

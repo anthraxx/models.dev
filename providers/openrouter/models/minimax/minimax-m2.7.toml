@@ -4,14 +4,15 @@ structured_output = true
 
 [extends]
 from = "minimax/MiniMax-M2.7"
-omit = ["cost.cache_read", "cost.cache_write"]
+omit = ["cost.cache_write"]
 
 [cost]
-input = 0.279
+input = 0.3
 output = 1.2
+cache_read = 0.06
 
 [limit]
-context = 196_608
+context = 204_800
 output = 131_072
 
 [modalities]

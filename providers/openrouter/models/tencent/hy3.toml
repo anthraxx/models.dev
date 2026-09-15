@@ -1,0 +1,23 @@
+name = "Hy3"
+family = "hy3"
+release_date = "2026-07-06"
+last_updated = "2026-07-06"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0.0825
+output = 0.33
+cache_read = 0.020625
+
+[limit]
+context = 262_144
+output = 128_000
+
+[modalities]
+input = ["text"]
+output = ["text"]
