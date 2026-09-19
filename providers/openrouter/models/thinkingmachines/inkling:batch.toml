@@ -1,0 +1,22 @@
+name = "Inkling (batch)"
+release_date = "2026-07-17"
+last_updated = "2026-07-17"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = false
+open_weights = true
+
+[cost]
+input = 1
+output = 4.05
+cache_read = 0.17
+
+[limit]
+context = 524_288
+output = 471_859
+
+[modalities]
+input = ["text", "image", "audio"]
+output = ["text"]

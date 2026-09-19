@@ -1,0 +1,22 @@
+name = "DeepSeek V4 Flash 0731 (free)"
+family = "deepseek"
+release_date = "2026-07-31"
+last_updated = "2026-07-31"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0
+output = 0
+
+[limit]
+context = 1_048_576
+output = 393_216
+
+[modalities]
+input = ["text"]
+output = ["text"]
