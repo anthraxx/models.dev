@@ -1,0 +1,23 @@
+name = "DeepSeek Pro Latest"
+family = "deepseek"
+release_date = "2026-09-14"
+last_updated = "2026-09-14"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.24948
+output = 0.74844
+cache_read = 0.007938
+
+[limit]
+context = 1_048_576
+output = 393_216
+
+[modalities]
+input = ["text"]
+output = ["text"]

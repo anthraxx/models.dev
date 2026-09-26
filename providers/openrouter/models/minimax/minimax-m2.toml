@@ -9,13 +9,12 @@ from = "minimax/MiniMax-M2"
 field = "reasoning_details"
 
 [cost]
-input = 0.255
-output = 1
-cache_read = 0.03
+input = 0.3
+output = 1.2
 
 [limit]
 context = 196_608
-output = 196_608
+output = 176_947
 
 [modalities]
 input = ["text"]

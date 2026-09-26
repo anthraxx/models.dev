@@ -10,13 +10,13 @@ omit = ["cost.cache_write"]
 field = "reasoning_content"
 
 [cost]
-input = 0.98
-output = 3.08
-cache_read = 0.182
+input = 0.9646
+output = 3.0316
+cache_read = 0.17914
 
 [limit]
 context = 202_752
-output = 202_800
+output = 131_072
 
 [modalities]
 input = ["text"]
