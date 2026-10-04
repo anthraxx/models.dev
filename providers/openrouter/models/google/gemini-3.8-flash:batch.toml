@@ -1,0 +1,25 @@
+name = "Gemini 3.8 Flash (batch)"
+family = "gemini"
+release_date = "2026-09-02"
+last_updated = "2026-09-02"
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.375
+output = 1.875
+reasoning = 1.875
+cache_read = 0.0375
+cache_write = 0.041667
+
+[limit]
+context = 1_048_576
+output = 65_536
+
+[modalities]
+input = ["text", "image", "video", "pdf", "audio"]
+output = ["text"]
