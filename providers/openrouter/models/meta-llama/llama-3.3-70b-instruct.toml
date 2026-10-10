@@ -7,8 +7,9 @@ structured_output = true
 from = "llama/llama-3.3-70b-instruct"
 
 [cost]
-input = 0.1
-output = 0.32
+input = 0.22
+output = 0.5
+cache_read = 0.11
 
 [limit]
 context = 131_072

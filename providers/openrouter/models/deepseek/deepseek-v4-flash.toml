@@ -9,13 +9,13 @@ from = "deepseek/deepseek-v4-flash"
 field = "reasoning_content"
 
 [cost]
-input = 0.112
-output = 0.224
-cache_read = 0.022
+input = 0.0256
+output = 1.28
+cache_read = 0.0256
 
 [limit]
-context = 1_048_575
-output = 131_072
+context = 1_048_576
+output = 943_718
 
 [modalities]
 input = ["text"]
