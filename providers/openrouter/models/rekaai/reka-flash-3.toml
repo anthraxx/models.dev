@@ -6,7 +6,7 @@ attachment = false
 reasoning = true
 temperature = true
 tool_call = false
-structured_output = false
+structured_output = true
 knowledge = "2025-01-31"
 open_weights = true
 
@@ -16,7 +16,7 @@ output = 0.2
 
 [limit]
 context = 65_536
-output = 65_536
+output = 58_982
 
 [modalities]
 input = ["text"]
